@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Demo-SLD-meeting"
+  description: "Demo during SLD meeting"
+  annotations:
+    github.com/project-slug: Mitrug/demo-sld-meeting
+    backstage.io/techdocs-ref: url:https://github.com/Mitrug/demo-sld-meeting
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Chapter 02"
